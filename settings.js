@@ -13,7 +13,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: process.env.SESSION_ID || "", // Your bot's session ID (keep secure)
+  SESSION_ID: process.env.SESSION_ID || "malvin~Yv9hgYRT#UWMLL_E3m9xyh5VJaL5T1q85_dnFN2KkCotpmzLTbmU", // Your bot's session ID (keep secure)
   PREFIX: getConfig("PREFIX") || ".", // Command prefix (e.g., ., /, !, *)
   CHATBOT: getConfig("CHATBOT") || "on", // Chatbot mode: on/off
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ᴍᴀʟᴠɪɴ-xᴅ", // Bot display name
@@ -54,22 +54,22 @@ module.exports = {
   MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/qumhu4.jpg", // Menu image URL
 
   // ===== SECURITY & ANTI-FEATURES =====
-  ANTI_DELETE: process.env.ANTI_DELETE || "true", // Recover deleted messages
+  ANTI_DELETE: process.env.ANTI_DELETE || "false", // Recover deleted messages
   ANTI_CALL: process.env.ANTI_CALL || "false", // Automatically reject calls
   ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false", // Block bad words
   ANTI_LINK: process.env.ANTI_LINK || "true", // Block links in groups
   ANTI_VV: process.env.ANTI_VV || "true", // Block view-once messages
   DELETE_LINKS: process.env.DELETE_LINKS || "false", // Auto-delete links
   ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", // Where to log deleted messages ('inbox' or 'same')
-  ANTI_BOT: process.env.ANTI_BOT || "true", // Block other bots?
+  ANTI_BOT: process.env.ANTI_BOT || "false", // Block other bots?
   PM_BLOCKER: process.env.PM_BLOCKER || "true", // Block private messages?
 
   // ===== BOT BEHAVIOR & APPEARANCE =====
   DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴀʟᴠɪɴ-xᴅ*", // Bot description/footer
   PUBLIC_MODE: process.env.PUBLIC_MODE || "true", // Allow public commands?
   ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false", // Show bot always online
-  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates
-  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // Mark status as seen
+  AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false", // React to status updates
+  AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false", // Mark status as seen
   AUTO_BIO: process.env.AUTO_BIO || "false", // Automatically update bio
   WELCOME: process.env.WELCOME || "false", // Enable welcome messages
   GOODBYE: process.env.GOODBYE || "false", // Enable goodbye messages
